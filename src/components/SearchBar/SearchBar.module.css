@@ -1,0 +1,38 @@
+.form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.field {
+    width: 320px;
+    border-radius: 8px;
+    border: 2px solid #464545;
+    padding: 8px 12px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.field:focus,
+.field:hover {
+    border-color: rgb(243, 45, 45);
+}
+
+.btn {
+    padding: 8px 12px;
+    background-color: #464545;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: rgb(243, 45, 45);
+    outline: none;
+}

@@ -1,0 +1,9 @@
+.author {
+    font-weight: bold;
+}
+
+.content {
+    color: rgb(101, 98, 98);
+    text-align: justify;
+        hyphens: auto;
+}
